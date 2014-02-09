@@ -6,10 +6,8 @@ svn2git: http://awesomegeekness.com/blog/?p=17
 
 cat catalyst-authors dbic-authors sqlt-authors > authors
 
-svn2git http://dev.catalyst.perl.org/repos/Catalyst/trunk/examples/CatalystAdvent \
---trunk / \
---authors ../Git-Conversions/authors \
---verbose
+CatalystAdvent https://github.com/jhannah/Git-Conversions/issues/1
+CatalystSite   https://github.com/jhannah/Git-Conversions/issues/2
 
 
 
